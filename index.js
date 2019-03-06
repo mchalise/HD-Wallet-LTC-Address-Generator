@@ -38,7 +38,7 @@ Pays To Script Hash (P2SH)
  -> For receiving payments, segwit wallet create a P2SH address based on a P2WPKH script,
 */
 function getAddress (node, network, type) {
-  if(type == "Ltub"){
+  if(type == "Ltub" || type == "xpub"){
     return bitcoinjs.payments.p2pkh({ pubkey: node.publicKey, network }).address
   }else{
     //segwit
