@@ -15,7 +15,7 @@ Litecoin  0x019da462 - Ltub 0x019d9cfe - Ltpv P2PKH or P2SH m/44'/2'
 Litecoin  0x01b26ef6 - Mtub 0x01b26792 - Mtpv P2WPKH in P2SH  m/49'/1'
 */
 
-function convertAnyAddressToLtub(extended_key, type) {
+function convertAnyAddressToLtub(extended_key, type) {ltc1qdk8u86ww87aa2j0l2umec8ke8x63zckmft89pw
   if(type == "Ltub"){
     return extended_key
   }else{
